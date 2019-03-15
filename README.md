@@ -3,16 +3,19 @@
 ## Overview
 A discrete event logistics system (or DELS) can be described as:
 
-•	a network of resources, arranged in a facility; each resource has one or more processing capabilities and for each capability, it has a capacity; 
+*	a network of resources, arranged in a facility; each resource has one or more processing capabilities and for each capability, it has a capacity; 
 
-•	a set of products flow through this network of resources, and are transformed by processes executed by the resources; a process may require the capabilities of more than one resource; the transformation can change location, age, or condition
+*	a set of products flow through this network of resources, and are transformed by processes executed by the resources; a process may require the capabilities of more than one resource; the transformation can change location, age, or condition
 
 ## Project Overview
 The goal of this project is to develop abstractions, model-libraries, and methodologies for applying them to support:
-• **Communication** -- improve precision with which we describe these systems and harmonize terminology for both system and analysis modeling.
-• **Interoperability** -- support developing integrated software and tools to support design, analysis, and operation
-• **Analysis** --  increase accessibility of analysis methods through integrations and transformations from system models
-• **Design** -- provide model-libraries to support development of conceptual models and functional architectures
+* **Communication** -- improve precision with which we describe these systems and harmonize terminology for both system and analysis modeling.
+
+* **Interoperability** -- support developing integrated software and tools to support design, analysis, and operation
+
+* **Analysis** --  increase accessibility of analysis methods through integrations and transformations from system models
+
+* **Design** -- provide model-libraries to support development of conceptual models and functional architectures
 
 
 ## Disclaimers
