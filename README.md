@@ -17,6 +17,15 @@ The goal of this project is to develop abstractions, model-libraries, and method
 
 * **Design** -- provide model-libraries to support development of conceptual models and functional architectures
 
+## [Brief] Get-Started
+_After you download the whole repository_, there are two basic ways to get started with the models. (Note: A more comprehensive guide is coming in the near future.)
+
+1. Open **DiscreteEventLogisticsSystems.mdzip**. This will open the DELS model library and automatically import the Commodity Flow Network.
+2. Open **DELSFramework.mdzip**. This will open the top-level model repository with all of the domain-specific model libraries. All domain-specific model libraries (except DELS and CFN) are work-in-progress or work-not-in-progress (stale projects).
+3. Most of the domain-specific model libraries (e.g. **Manufacturing_RefArch.mdzip**) automatically import their dependency tree. So if you want to work with the Manufacturing libraries, you can simply open that library and it'll import both DiscreteEventLogisticsSystems and CommodityFlowNetwork.
+
+**Note** These model libraries were created in NoMagic's MagicDraw 18.5 SP1 which implements SysML 1.4
+
 
 ## Disclaimers
 
