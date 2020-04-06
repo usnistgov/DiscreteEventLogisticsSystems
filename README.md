@@ -7,7 +7,6 @@ A discrete event logistics system (or DELS) can be described as:
 
 *	a set of products flow through this network of resources, and are transformed by processes executed by the resources; a process may require the capabilities of more than one resource; the transformation can change location, age, or condition
 
-## Project Overview
 The goal of this project is to develop abstractions, model-libraries, and methodologies for applying them to support:
 * **Communication** -- improve precision with which we describe these systems and harmonize terminology for both system and analysis modeling.
 
