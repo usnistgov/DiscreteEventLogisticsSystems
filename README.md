@@ -36,9 +36,9 @@ _After you download the whole repository_, there are two basic ways to get start
 
 * **Warehouse_RefArch.mdzip** supports the research documented in _Sprock, Timothy, Anike Murrenhoff, and Leon F. McGinnis. "A hierarchical approach to warehouse design." International Journal of Production Research 55.21 (2017): 6331-6343._
 
-* **M-SysML.mdzip** was initially constructed as part of DARPA Contract _FA8650-11-C-7142_ and currently being continued under NIST grant _70NANB19H067_. Initial documentation can be found at https://apps.dtic.mil/dtic/tr/fulltext/u2/a565243.pdf
+* **SupplyChain_RefArch.mdzip** supports the research documented in _Sprock, Timothy, and Leon F. McGinnis. "Simulation model generation of discrete event logistics systems (dels) using software design patterns." Proceedings of the Winter Simulation Conference 2014. IEEE, 2014._
 
-* **AutomotiveCaseStudy.mdzip** is a current project of the INCOSE Production and Logisistics Modeling Challenge Team, see here for more details: http://www.omgwiki.org/MBSE/doku.php?id=mbse:prodlog
+* **M-SysML.mdzip** was initially constructed as part of DARPA Contract _FA8650-11-C-7142_ and currently being continued under NIST grant _70NANB19H067_. Initial documentation can be found at https://apps.dtic.mil/dtic/tr/fulltext/u2/a565243.pdf
 
 * **AutomotiveCaseStudy.mdzip** is a current project of the INCOSE Production and Logisistics Modeling Challenge Team, see here for more details: http://www.omgwiki.org/MBSE/doku.php?id=mbse:prodlog
 
