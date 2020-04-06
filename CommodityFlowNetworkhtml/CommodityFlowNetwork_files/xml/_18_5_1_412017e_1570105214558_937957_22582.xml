@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><magicdraw><comment classType="Comment" humanType="Comment" icon="CommodityFlowNetwork_files/icon_comment_821562474.svg" id="_18_5_1_412017e_1570105214558_937957_22582"><annotatedElement humanName="Annotated Element" mode="s,e"><block classType="Class" humanType="Block" icon="CommodityFlowNetwork_files/icon_block_1825105397.svg" name="ReflectiveObject" refid="_18_5_1_412017e_1570104543410_767325_22533"/></annotatedElement><body humanName="Body" mode="s,e">For example: http://www.java2s.com/Code/Java/Reflection/ObjectReflectioncreatenewinstance.htm
+
+import java.awt.Rectangle;
+
+public class SampleNoArg {
+
+   public static void main(String[] args) {
+      Rectangle r = (Rectangle) createObject("java.awt.Rectangle");
+      System.out.println(r.toString());
+   }
+
+   static Object createObject(String className) {
+      Object object = null;
+      try {
+          Class classDefinition = Class.forName(className);
+          object = classDefinition.newInstance();
+      } catch (InstantiationException e) {
+          System.out.println(e);
+      } catch (IllegalAccessException e) {
+          System.out.println(e);
+      } catch (ClassNotFoundException e) {
+          System.out.println(e);
+      }
+      return object;
+   }
+}</body><documentation humanName="Documentation"/><owner classType="Class" humanName="Owner" humanType="Block" icon="CommodityFlowNetwork_files/icon_block_1825105397.svg" mode="s,e" name="ReflectiveObject" refid="_18_5_1_412017e_1570104543410_767325_22533"/><owningElement classType="Class" humanName="Owning Element" humanType="Block" icon="CommodityFlowNetwork_files/icon_block_1825105397.svg" name="ReflectiveObject" refid="_18_5_1_412017e_1570104543410_767325_22533"/><TO_DO humanName="To Do" mode="s,e"/></comment></magicdraw>
