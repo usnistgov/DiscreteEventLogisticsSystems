@@ -26,6 +26,23 @@ _After you download the whole repository_, there are two basic ways to get start
 
 **Note** These model libraries were created in NoMagic's MagicDraw 18.5 SP1 which implements SysML 1.4
 
+## Summary of Included Packages
+
+* **CommodityFlowNetwork.mdzip** and **DiscreteEventLogisticsSystems.mdzip** are documented in NISTIR-8262 available from https://doi.org/10.6028/NIST.IR.8262.
+
+* **CentralFillPharmazy.mdzip** and **CentralFillPharmacy_deprecated.mdzip** are products of NIST grant _70NANB15H234_ with documentation available at https://nvlpubs.nist.gov/nistpubs/gcr/2019/NIST.GCR.19-022.pdf
+
+* **Functional_Architecture.mdzip** supports the research documented in _Sprock, Timothy, and Leon F. McGinnis. "Analysis of functional architectures for discrete event logistics systems (dels)." Procedia Computer Science 44 (2015): 517-526._
+
+* **Warehouse_RefArch.mdzip** supports the research documented in _Sprock, Timothy, Anike Murrenhoff, and Leon F. McGinnis. "A hierarchical approach to warehouse design." International Journal of Production Research 55.21 (2017): 6331-6343._
+
+* **M-SysML.mdzip** was initially constructed as part of DARPA Contract _FA8650-11-C-7142_ and currently being continued under NIST grant _70NANB19H067_. Initial documentation can be found at https://apps.dtic.mil/dtic/tr/fulltext/u2/a565243.pdf
+
+* **AutomotiveCaseStudy.mdzip** is a current project of the INCOSE Production and Logisistics Modeling Challenge Team, see here for more details: http://www.omgwiki.org/MBSE/doku.php?id=mbse:prodlog
+
+* **AutomotiveCaseStudy.mdzip** is a current project of the INCOSE Production and Logisistics Modeling Challenge Team, see here for more details: http://www.omgwiki.org/MBSE/doku.php?id=mbse:prodlog
+
+* **ElectronicsAssembly.mdzip** is an on-hold project of the INCOSE Production and Logisistics Modeling Challenge Team.
 
 ## Disclaimers
 
