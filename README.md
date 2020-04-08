@@ -17,18 +17,24 @@ The goal of this project is to develop abstractions, model-libraries, and method
 * **Design** -- provide model-libraries to support development of conceptual models and functional architectures
 
 ## [Brief] Get-Started
-_After you download the whole repository_, there are two basic ways to get started with the models. (Note: A more comprehensive guide is coming in the near future.)
+_After you download the whole repository_, there are few basic ways to get started with the models. (Note: A more comprehensive guide is coming in the near future.)
 
-1. Open **DiscreteEventLogisticsSystems.mdzip**. This will open the DELS model library and automatically import the Commodity Flow Network.
-2. Open **DELSFramework.mdzip**. This will open the top-level model repository with all of the domain-specific model libraries. All domain-specific model libraries (except DELS and CFN) are work-in-progress or work-not-in-progress (stale projects).
-3. Most of the domain-specific model libraries (e.g. **Manufacturing_RefArch.mdzip**) automatically import their dependency tree. So if you want to work with the Manufacturing libraries, you can simply open that library and it'll import both DiscreteEventLogisticsSystems and CommodityFlowNetwork.
+1. For MagicDraw Users:  You can open **DiscreteEventLogisticsSystems.mdzip**. This will open the DELS model library and automatically import the **CommodityFlowNetwork.mdzip**. 
+
+   a) You may open **DELSFramework.mdzip**. This will open the top-level model repository with **_ALL_** of the domain-specific model libraries. Most of the domain-specific model libraries (except DELS and CFN) are work-in-progress or work-not-in-progress (stale projects).
+  
+   b) Most of the domain-specific model libraries (e.g. **Manufacturing_RefArch.mdzip**) automatically import their dependency tree. So if you want to work with the Manufacturing libraries, you can simply open that library and it'll import both DiscreteEventLogisticsSystems and CommodityFlowNetwork.
+  
+2. For users of non-MagicDraw SysML editors (e.g., Sparx EA): You can import the **DiscreteEventLogisticsSystems.xmi** and **CommodityFlowNetwork.xmi** files.
+3. For non-SysML editors: Use the _html_ files. Unzip **CommodityFlowNetwork.html.zip** and **DiscreteEventLogisticsSystems.html.zip** and open in a browser. Unfortunately, right now Chrome doesn't seem to be working, but Internet Explorer and Edge seem to work just fine.
 
 **Note** These model libraries were created in NoMagic's MagicDraw 18.5 SP1 which implements SysML 1.4
 
 ## Summary of Included Packages
 
 * **CommodityFlowNetwork.mdzip** and **DiscreteEventLogisticsSystems.mdzip** are documented in NISTIR-8262 available from https://doi.org/10.6028/NIST.IR.8262.
-  * These models are also available to be viewed in html, see **CommodityFlowNetwork.html.zip** and **DiscreteEventLogisticsSystems.html.zip**. While read-only and with limited functionality, this is a quick way to view the content of these models without a SysML modeling tool.
+  * These models are also available in OMG's XML Model Interchange (XMI) format, see **CommodityFlowNetwork.xmi** and **DiscreteEventLogisticsSystems.xmi** which can be imported into most SysML editors.
+  * These models are also available to be viewed in html, see **CommodityFlowNetwork.html.zip** and **DiscreteEventLogisticsSystems.html.zip**. While read-only and with limited functionality, this is a quick way to view the content of these models without a SysML modeling tool. You will need to unzip the folder first. Also, Internet Explorer / Edge seem to work best right now.
 
 * **CentralFillPharmazy.mdzip** and **CentralFillPharmacy_deprecated.mdzip** are products of NIST grant _70NANB15H234_ with documentation available at https://nvlpubs.nist.gov/nistpubs/gcr/2019/NIST.GCR.19-022.pdf
 
