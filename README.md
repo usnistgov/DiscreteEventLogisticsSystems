@@ -46,9 +46,7 @@ _After you download the whole repository_, there are few basic ways to get start
 
 * **M-SysML.mdzip** was initially constructed as part of DARPA Contract _FA8650-11-C-7142_ and currently being continued under NIST grant _70NANB19H067_. Initial documentation can be found at https://apps.dtic.mil/dtic/tr/fulltext/u2/a565243.pdf
 
-* **AutomotiveCaseStudy.mdzip** is a current project of the INCOSE Production and Logisistics Modeling Challenge Team, see here for more details: http://www.omgwiki.org/MBSE/doku.php?id=mbse:prodlog
-
-* **ElectronicsAssembly.mdzip** is an on-hold project of the INCOSE Production and Logisistics Modeling Challenge Team.
+* **ElectronicsAssemblyCaseStudy.mdzip** is a current project of the INCOSE Production and Logisistics Modeling Challenge Team, see here for more details: http://www.omgwiki.org/MBSE/doku.php?id=mbse:prodlog
 
 ## Disclaimers
 
